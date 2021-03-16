@@ -1,0 +1,19 @@
+{
+    "bdm::Param": {
+        "time_step": 0.0000277,
+        "bound_space": true,
+        "min_bound": -550,
+        "max_bound": 550,
+        "run_mechanical_interactions": false,
+	"export_visualization": false,
+        "visualize_agents": {
+            "Human": ["state_"]
+        }
+    },
+    "bdm::SimParam": {
+        "number_of_steps": 2000,
+        "human_diameter": 25,
+        "map_pixel_size": 4
+    }
+
+}
